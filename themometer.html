@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thermometer Visual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="thermometer">
+    <div class="mercury" id="mercury"></div>
+  </div>
+  <div class="info">
+    <div>Target: <input type="number" id="targetInput" placeholder="Enter target figure"></div>
+    <div>Current: <span id="currentValue">0</span></div>
+  </div>
+  <input type="number" id="inputValue" placeholder="Enter a figure">
+  <button onclick="updateThermometer()">Update</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

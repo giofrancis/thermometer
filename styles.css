@@ -1,0 +1,15 @@
+.thermometer {
+  width: 20px;
+  height: 300px;
+  background-color: #ccc;
+  position: relative;
+  overflow: hidden; /* Ensure the mercury doesn't overflow */
+}
+
+.mercury {
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  transition: height 5s linear; /* Smooth transition effect over 5 seconds */
+}
